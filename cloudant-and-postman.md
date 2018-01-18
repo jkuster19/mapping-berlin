@@ -1,10 +1,10 @@
 ## Let's Map!
-
+(this is my change)
 By now, you should have reached a point where you are comfortable with writing and editing GeoJSON.  Before we can add them to the map, we need to make sure that we include information to help make our points searchable.  You will accomplish this by adding a key and value to you GeoJSON that helps us identify them as your new points.  To do this, will add a key called "series" and a value of "Spring 2016".  You will also add a key called "tour" and a value of "Test".  Eventually, the value for "tour" will be replaced by your map year, but do not worry about this for now.  
 
 If you would like to look at changes symbols, you can also do that by using this [site](https://www.mapbox.com/maki/)
 
-Your GeoJSON should look similar to the code shown below. 
+Your GeoJSON should look similar to the code shown below.
 
 ```json
 {
@@ -44,7 +44,7 @@ Click the "Authoirzation" tab and change the drop-down from "No-auth" to "Basic 
 
 ![Imgur](http://i.imgur.com/0ece0Ha.jpg)
 
-Next, click the "Body" Tab and select the radio button that says "raw".  And change the drop down to JSON.  Next Paste your GeoJSON code into the box.  Then add ```{"docs": [ ``` to the beginning of you GeoJSON and ```]}``` to the end.  The final version of your code should look something similar to this: 
+Next, click the "Body" Tab and select the radio button that says "raw".  And change the drop down to JSON.  Next Paste your GeoJSON code into the box.  Then add ```{"docs": [ ``` to the beginning of you GeoJSON and ```]}``` to the end.  The final version of your code should look something similar to this:
 ```
 {
   "docs": [
@@ -76,8 +76,3 @@ Once you have correctly entered your code (if you have an error, it will show a 
 Now if we go to our [map](http://heardlibrary.github.io/mapping-berlin/) and change the dropdown to "Test", you should see your new point.
 
 ![Imgur](http://i.imgur.com/NuHl9LK.jpg)
-
-
-
-
-
